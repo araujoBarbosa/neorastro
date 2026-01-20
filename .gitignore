@@ -7,10 +7,26 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+node_modules/
 dist
 dist-ssr
 *.local
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / temp / local artifacts
+*.tmp
+*.Hope.*
+Thumbs.db
+tmp/
+-Hope.gitignore
+package-Hope.json
+package-lock-Hope.json
+pages/Dashboard-Hope.tsx
+.env
 
 # Editor directories and files
 .vscode/*
